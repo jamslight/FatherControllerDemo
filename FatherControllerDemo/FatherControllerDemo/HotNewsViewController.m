@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.frame = CGRectMake(0, 64, WIDTH, HEIGHT-64);
+//    self.view.frame = CGRectMake(0, 64, WIDTH, HEIGHT-64);
     self.view.backgroundColor = [UIColor cyanColor];
 }
 

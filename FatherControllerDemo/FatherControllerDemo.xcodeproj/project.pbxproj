@@ -15,6 +15,9 @@
 		FEA21C58210714DF00C4B5D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA21C57210714DF00C4B5D8 /* main.m */; };
 		FEA21C62210714E000C4B5D8 /* FatherControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA21C61210714E000C4B5D8 /* FatherControllerDemoTests.m */; };
 		FEA21C6D210714E000C4B5D8 /* FatherControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA21C6C210714E000C4B5D8 /* FatherControllerDemoUITests.m */; };
+		FEA21C802107192700C4B5D8 /* FirstNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA21C7B2107192700C4B5D8 /* FirstNewsViewController.m */; };
+		FEA21C812107192700C4B5D8 /* SocietyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA21C7D2107192700C4B5D8 /* SocietyViewController.m */; };
+		FEA21C822107192700C4B5D8 /* HotNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA21C7E2107192700C4B5D8 /* HotNewsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		FEA21C68210714E000C4B5D8 /* FatherControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FatherControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA21C6C210714E000C4B5D8 /* FatherControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FatherControllerDemoUITests.m; sourceTree = "<group>"; };
 		FEA21C6E210714E000C4B5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA21C7A2107192700C4B5D8 /* HotNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotNewsViewController.h; sourceTree = "<group>"; };
+		FEA21C7B2107192700C4B5D8 /* FirstNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstNewsViewController.m; sourceTree = "<group>"; };
+		FEA21C7C2107192700C4B5D8 /* FirstNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstNewsViewController.h; sourceTree = "<group>"; };
+		FEA21C7D2107192700C4B5D8 /* SocietyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocietyViewController.m; sourceTree = "<group>"; };
+		FEA21C7E2107192700C4B5D8 /* HotNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotNewsViewController.m; sourceTree = "<group>"; };
+		FEA21C7F2107192700C4B5D8 /* SocietyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocietyViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,12 @@
 		FEA21C47210714DE00C4B5D8 /* FatherControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FEA21C7C2107192700C4B5D8 /* FirstNewsViewController.h */,
+				FEA21C7B2107192700C4B5D8 /* FirstNewsViewController.m */,
+				FEA21C7A2107192700C4B5D8 /* HotNewsViewController.h */,
+				FEA21C7E2107192700C4B5D8 /* HotNewsViewController.m */,
+				FEA21C7F2107192700C4B5D8 /* SocietyViewController.h */,
+				FEA21C7D2107192700C4B5D8 /* SocietyViewController.m */,
 				FEA21C48210714DE00C4B5D8 /* AppDelegate.h */,
 				FEA21C49210714DE00C4B5D8 /* AppDelegate.m */,
 				FEA21C4B210714DE00C4B5D8 /* ViewController.h */,
@@ -262,7 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA21C812107192700C4B5D8 /* SocietyViewController.m in Sources */,
+				FEA21C802107192700C4B5D8 /* FirstNewsViewController.m in Sources */,
 				FEA21C4D210714DE00C4B5D8 /* ViewController.m in Sources */,
+				FEA21C822107192700C4B5D8 /* HotNewsViewController.m in Sources */,
 				FEA21C58210714DF00C4B5D8 /* main.m in Sources */,
 				FEA21C4A210714DE00C4B5D8 /* AppDelegate.m in Sources */,
 			);
